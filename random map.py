@@ -1,5 +1,4 @@
-def rand_map(height, width, res,
-             robot_size):  # make sure height/res and width/res are integer or the as close as possible, all size are in meters
+def rand_map(height, width, res,robot_size):  # make sure height/res and width/res are integer or the as close as possible, all size are in meters
     import random
     import math
     map_height = round(height / res)
